@@ -126,7 +126,7 @@ export const projects = [
     title: "RAG AI TUTOR", // Replace with project name
     description:
       "Context-Aware RAG AI Tutor - A Retrieval-Augmented Generation based tutoring system that answers questions from academic PDFs using semantic retrieval, optional cross-encoder reranking, and level-adaptive prompt engineering to generate accurate, context-grounded explanations.",
-    image: "https://images.unsplash.com/photo-1659428604786-05a5cf30a618?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/detect_char.jpg",,
     tags: ["Python", "Streamlit", "Openrouter", "FAISS", "Sentence Transformer"],
     liveUrl: "https://your-project-3.com",
     githubUrl: "https://github.com/samin2703/RAG_AI_Tutor",
