@@ -132,39 +132,6 @@ export const projects = [
     githubUrl: "https://github.com/samin2703/RAG_AI_Tutor",
     featured: true,
   },
-  {
-    id: 4,
-    title: "YOUR_PROJECT_4", // Replace with project name
-    description:
-      "Mobile-first fitness tracking app with workout plans, progress charts, and social features.",
-    image: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=600&fit=crop",
-    tags: ["React Native", "Firebase", "Redux"],
-    liveUrl: "https://your-project-4.com",
-    githubUrl: "https://github.com/YOUR_GITHUB/project-4",
-    featured: false,
-  },
-  {
-    id: 5,
-    title: "YOUR_PROJECT_5", // Replace with project name
-    description:
-      "Real-time weather dashboard with location-based forecasts, alerts, and beautiful visualizations.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
-    tags: ["Vue.js", "D3.js", "Weather API"],
-    liveUrl: "https://your-project-5.com",
-    githubUrl: "https://github.com/YOUR_GITHUB/project-5",
-    featured: false,
-  },
-  {
-    id: 6,
-    title: "YOUR_PROJECT_6", // Replace with project name
-    description:
-      "Collaborative code editor with real-time sync, syntax highlighting, and video chat integration.",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
-    tags: ["WebSocket", "Monaco Editor", "WebRTC"],
-    liveUrl: "https://your-project-6.com",
-    githubUrl: "https://github.com/YOUR_GITHUB/project-6",
-    featured: false,
-  },
 ];
 
 // ============================================
