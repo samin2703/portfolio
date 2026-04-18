@@ -43,6 +43,45 @@ export const navLinks = [
 ];
 
 // ============================================
+// PROJECTS - Edit your projects here
+// ============================================
+export const projects = [
+  {
+    id: 1,
+    title: "CUSTOMER SUPPORT AI", // Replace with project name
+    description:
+      "Automated Customer Support AI System using Retrieval-Augmented Generation (RAG). It handles customer queries, classifies intents, retrieves relevant policy information, and generates grounded answers. It also includes an escalation mechanism for complex or sensitive issues.",
+    image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["Langchain", "Transformer", "FAISS", "Torch", "Python"],
+    liveUrl: "https://your-project-1.com", // Replace with live URL
+    githubUrl: "https://github.com/samin2703/customer_support_ai", // Replace with GitHub URL
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "BANGLA LICENSE PLATE RECOGNITION", // Replace with project name
+    description:
+      "Developed an end-to-end Bangla license plate detection and character recognition system using computer vision and deep learning techniques. The model detects vehicle plates from images and accurately recognizes Bangla characters.",
+    image: "/detect_char.jpg",
+    tags: ["Python", "YOLO", "CV2", "Streamlit", "Numpy"],
+    liveUrl: "https://your-project-2.com",
+    githubUrl: "https://github.com/samin2703/Bangla_license_plate_project",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "RAG AI TUTOR", // Replace with project name
+    description:
+      "Context-Aware RAG AI Tutor - A Retrieval-Augmented Generation based tutoring system that answers questions from academic PDFs using semantic retrieval, optional cross-encoder reranking, and level-adaptive prompt engineering to generate accurate, context-grounded explanations.",
+    image: "https://images.unsplash.com/photo-1677691820099-a6e8040aa077?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    tags: ["Python", "Streamlit", "Openrouter", "FAISS", "Sentence Transformer"],
+    liveUrl: "https://your-project-3.com",
+    githubUrl: "https://github.com/samin2703/RAG_AI_Tutor",
+    featured: true,
+  },
+];
+
+// ============================================
 // SKILLS - Edit your skills here
 // ============================================
 export const skills = [
@@ -95,44 +134,7 @@ export const skills = [
   { name: "Git & Version Control", category: "Data & Tools", level: 85 },
 ];
 
-// ============================================
-// PROJECTS - Edit your projects here
-// ============================================
-export const projects = [
-  {
-    id: 1,
-    title: "CUSTOMER SUPPORT AI", // Replace with project name
-    description:
-      "Automated Customer Support AI System using Retrieval-Augmented Generation (RAG). It handles customer queries, classifies intents, retrieves relevant policy information, and generates grounded answers. It also includes an escalation mechanism for complex or sensitive issues.",
-    image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["Langchain", "Transformer", "FAISS", "Torch", "Python"],
-    liveUrl: "https://your-project-1.com", // Replace with live URL
-    githubUrl: "https://github.com/samin2703/customer_support_ai", // Replace with GitHub URL
-    featured: true,
-  },
-  {
-    id: 2,
-    title: "BANGLA LICENSE PLATE RECOGNITION", // Replace with project name
-    description:
-      "Developed an end-to-end Bangla license plate detection and character recognition system using computer vision and deep learning techniques. The model detects vehicle plates from images and accurately recognizes Bangla characters.",
-    image: "/detect_char.jpg",
-    tags: ["Python", "YOLO", "CV2", "Streamlit", "Numpy"],
-    liveUrl: "https://your-project-2.com",
-    githubUrl: "https://github.com/samin2703/Bangla_license_plate_project",
-    featured: true,
-  },
-  {
-    id: 3,
-    title: "RAG AI TUTOR", // Replace with project name
-    description:
-      "Context-Aware RAG AI Tutor - A Retrieval-Augmented Generation based tutoring system that answers questions from academic PDFs using semantic retrieval, optional cross-encoder reranking, and level-adaptive prompt engineering to generate accurate, context-grounded explanations.",
-    image: "https://images.unsplash.com/photo-1677691820099-a6e8040aa077?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["Python", "Streamlit", "Openrouter", "FAISS", "Sentence Transformer"],
-    liveUrl: "https://your-project-3.com",
-    githubUrl: "https://github.com/samin2703/RAG_AI_Tutor",
-    featured: true,
-  },
-];
+
 
 // ============================================
 // EXPERIENCE - Edit your work experience here
