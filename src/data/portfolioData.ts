@@ -92,6 +92,7 @@ export const hackathonHighlight = {
   placement: "Top 10 (Ranked 7th)",
   invitation:
     "Selected among the Top 20 teams and invited to present to the Digital Entrepreneurship and Innovation Ecosystem Development (DEIED), Bangladesh, under the Bangladesh Hi-Tech Park Authority.",
+  invitationShort: "Invited to present at DEIED (Bangladesh Hi-Tech Park Authority).",
   summary:
     "HydroSentinel is a flood-risk intelligence platform aimed at improving early detection and response to urban flooding.",
   highlights: [

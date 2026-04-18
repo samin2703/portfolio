@@ -13,6 +13,7 @@ export default function Hackathon() {
     role,
     placement,
     invitation,
+    invitationShort,
     summary,
     highlights,
     repositoryUrl,
@@ -118,7 +119,7 @@ export default function Hackathon() {
               <FiMapPin className="w-5 h-5 text-blue-600 dark:text-blue-400 mt-0.5" />
               <div>
                 <p className="font-semibold text-gray-900 dark:text-white">Special Invitation</p>
-                <p>{invitation}</p>
+                <p>{invitationShort}</p>
               </div>
             </div>
           </div>
