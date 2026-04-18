@@ -38,6 +38,7 @@ export const navLinks = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
+  { name: "Hackathon", href: "#hackathon" },
   { name: "Experience", href: "#experience" },
   { name: "Contact", href: "#contact" },
 ];
@@ -80,6 +81,28 @@ export const projects = [
     featured: true,
   },
 ];
+
+// ============================================
+// HACKATHON HIGHLIGHT
+// ============================================
+export const hackathonHighlight = {
+  event: "Impact Dhaka 2026 – AI for Urban Transformation",
+  team: "HydroSentinel",
+  role: "Team Lead",
+  placement: "Top 10 (Ranked 7th)",
+  invitation:
+    "Selected among the Top 20 teams and invited to present to the Digital Entrepreneurship and Innovation Ecosystem Development (DEIED), Bangladesh, under the Bangladesh Hi-Tech Park Authority.",
+  summary:
+    "HydroSentinel is a flood-risk intelligence platform aimed at improving early detection and response to urban flooding.",
+  highlights: [
+    "Integrates drain image analysis, rainfall data, and location-based vulnerability to generate real-time risk scores and short-term flood probability.",
+    "Provides an operational dashboard for authorities plus a driver interface for route advisories and hazard reporting.",
+    "Focuses on enabling earlier intervention in cities like Dhaka before disruptions escalate.",
+  ],
+  repositoryUrl: "https://github.com/samin2703/hydroSentinel",
+  thanks:
+    "Special thanks to Farhan Morshed and the organizers at Cognisor AI for making this experience meaningful.",
+};
 
 // ============================================
 // SKILLS - Edit your skills here
