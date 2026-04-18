@@ -162,7 +162,7 @@ export const experiences = [
     startDate: "2022",
     endDate: "2026",
     description: [
-      "Graduated with Honors (GPA: 3._ _/4.0)",
+      "Graduate to be with Honors (GPA: 3.61/4.0) upto 7th Semester",
       "Focus on Machine Learning, AI and IoT",
       "Completed senior thesis on Human Robot Interaction",
     ],
