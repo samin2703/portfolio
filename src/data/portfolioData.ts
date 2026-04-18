@@ -173,7 +173,6 @@ export const experiences = [
 // ABOUT SECTION STATS
 // ============================================
 export const stats = [
-  { label: "Years Experience", value: "1+" },
   { label: "Projects Completed", value: "10+" },
   { label: "Coffee Cups", value: "∞" },
 ];
