@@ -101,8 +101,6 @@ export const hackathonHighlight = {
     "Focuses on enabling earlier intervention in cities like Dhaka before disruptions escalate.",
   ],
   repositoryUrl: "https://github.com/samin2703/hydroSentinel",
-  thanks:
-    "Special thanks to Farhan Morshed and the organizers at Cognisor AI for making this experience meaningful.",
 };
 
 // ============================================
