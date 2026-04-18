@@ -117,7 +117,7 @@ export default function Hackathon() {
             <div className="flex items-start gap-3">
               <FiMapPin className="w-5 h-5 text-blue-600 dark:text-blue-400 mt-0.5" />
               <div>
-                <p className="font-semibold text-gray-900 dark:text-white">Invite</p>
+                <p className="font-semibold text-gray-900 dark:text-white">Special Invitation</p>
                 <p>{invitation}</p>
               </div>
             </div>
