@@ -80,6 +80,17 @@ export const projects = [
     githubUrl: "https://github.com/samin2703/RAG_AI_Tutor",
     featured: true,
   },
+  {
+    id: 4,
+    title: "HOUSE PRICE PREDICTION APP", // Replace with project name
+    description:
+      "“Boston Housing AI” is a FastAPI web app that serves a pre‑trained XGBoost regression model to predict house prices from six key features (rooms, LSTAT, distance, pupil‑teacher ratio, tax rate, and NOX).",
+    image: "house-price.jpg",
+    tags: ["Python", "Pandas", "Pydantic", "FastAPI", "Jinja2Templates"],
+    liveUrl: "https://house-price-pred-samin.onrender.com/",
+    githubUrl: "https://github.com/samin2703/render_house_price_app",
+    featured: true,
+  },
 ];
 
 // ============================================
