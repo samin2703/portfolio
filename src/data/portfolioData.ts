@@ -12,7 +12,7 @@
 export const personalInfo = {
   name: "SAMIN SADIQUE AURIN", // Replace with your name
   title: "Machine Learning Engineer", // Replace with your title
-  tagline: "Building Intelligent Systems • Python • NLP • Computer Vision • Generative AI", // Replace with your tagline
+  tagline: "AI Systems | NLP | Computer Vision | Generative AI | Python", // Replace with your tagline
   email: "sa.samin1201@gmail.com", // Replace with your email
   phone: "+8801408378524", // Replace with your phone
   location: "Dhaka, Bangladesh", // Replace with your location
