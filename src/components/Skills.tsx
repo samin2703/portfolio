@@ -24,7 +24,7 @@ const skills = {
     'LLMs (LLaMA, GPT, Ollama)',
     'Vector Embeddings',
     'LangChain',
-    'LangGraph'
+    'LangGraph',
     'Prompt Engineering',
     'Fine-tuning',
   ],
