@@ -11,13 +11,13 @@ import SectionWrapper, { SectionTitle } from './SectionWrapper';
 
 // 🔥 Cleaned + Structured Skills
 const skills = {
-  'Machine Learning': ['Python', 'PyTorch', 'TensorFlow', 'Scikit-learn', 'Pandas & NumPy'],
+  'Machine Learning': ['Python', 'PyTorch', 'TensorFlow', 'Scikit-learn', 'Pandas', 'NumPy'],
   'Computer Vision': [
     'OpenCV',
-    'YOLO (Ultralytics)',
+    'YOLO',
     'MediaPipe',
     'Image Processing',
-    'Model Training & Optimization',
+    'Model Training','Optimization',
   ],
   'Generative AI': [
     'RAG Systems',
