@@ -3,7 +3,12 @@ import { FiDownload, FiMail, FiGithub, FiLinkedin } from 'react-icons/fi';
 import { personalInfo, socialLinks } from '../data/portfolioData';
 
 /**
- * Hero Section - Main landing area with About-style background
+ * Hero Section - Main landing area with gradient background
+ * Features:
+ * - Animated text and elements
+ * - Gradient background with floating shapes
+ * - CTA buttons for resume and contact
+ * - Social links
  */
 export default function Hero() {
   const handleScroll = (href: string) => {
@@ -16,27 +21,9 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-50 dark:bg-gray-900/50"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-
-      {/* ===== ABOUT-STYLE BACKGROUND LAYERS ===== */}
-      <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-
-        {/* Layer 1 */}
-        <div className="absolute w-[600px] h-[600px] sm:w-[800px] sm:h-[800px]
-                        bg-gradient-to-br from-blue-400 to-cyan-400
-                        rounded-2xl rotate-6 opacity-20 blur-3xl animate-pulse" />
-
-        {/* Layer 2 */}
-        <div className="absolute w-[600px] h-[600px] sm:w-[800px] sm:h-[800px]
-                        bg-gradient-to-br from-blue-600 to-cyan-600
-                        rounded-2xl -rotate-12 opacity-20 blur-3xl animate-pulse delay-1000" />
-
-        {/* Soft overlay for readability */}
-        <div className="absolute inset-0 bg-gray-50/70 dark:bg-gray-900/70" />
-      </div>
-
-      {/* ===== CONTENT (UNCHANGED) ===== */}
+      {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
@@ -45,8 +32,7 @@ export default function Hero() {
           className="glass-card backdrop-blur-xl max-w-4xl mx-auto px-6 sm:px-8 md:px-10 py-10 sm:py-12 md:py-16"
         >
           <div className="text-center">
-
-            {/* Name */}
+            {/* Name - EDIT: Replace with your name */}
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -59,7 +45,7 @@ export default function Hero() {
               {personalInfo.name}
             </motion.h1>
 
-            {/* Title */}
+            {/* Title - EDIT: Replace with your title */}
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -71,7 +57,7 @@ export default function Hero() {
               </span>
             </motion.h2>
 
-            {/* Tagline */}
+            {/* Tagline - EDIT: Replace with your tagline */}
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -81,7 +67,7 @@ export default function Hero() {
               {personalInfo.tagline}
             </motion.p>
 
-            {/* CTA */}
+            {/* CTA Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -101,7 +87,6 @@ export default function Hero() {
                 <FiDownload className="w-5 h-5" />
                 Download Resume
               </motion.a>
-
               <motion.button
                 onClick={() => handleScroll('#contact')}
                 whileHover={{ scale: 1.05 }}
@@ -115,40 +100,43 @@ export default function Hero() {
               </motion.button>
             </motion.div>
 
-            {/* Social */}
+            {/* Social Links */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.5 }}
               className="flex items-center justify-center gap-4"
             >
+              {/* EDIT: Update social links in portfolioData.ts */}
               <motion.a
                 href={socialLinks.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                className="p-3 glass rounded-full text-gray-300 hover:text-blue-400 transition-colors"
+                className="p-3 glass rounded-full text-gray-300 
+                           hover:text-blue-400 transition-colors"
+                aria-label="GitHub"
               >
                 <FiGithub className="w-6 h-6" />
               </motion.a>
-
               <motion.a
                 href={socialLinks.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.2, y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                className="p-3 glass rounded-full text-gray-300 hover:text-blue-400 transition-colors"
+                className="p-3 glass rounded-full text-gray-300 
+                           hover:text-blue-400 transition-colors"
+                aria-label="LinkedIn"
               >
                 <FiLinkedin className="w-6 h-6" />
               </motion.a>
             </motion.div>
-
           </div>
         </motion.div>
 
-        {/* Scroll Indicator (UNCHANGED) */}
+        {/* Scroll Indicator */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
