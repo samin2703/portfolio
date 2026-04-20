@@ -70,7 +70,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 3,
+    id: 5,
     title: "RAG AI TUTOR", // Replace with project name
     description:
       "Context-Aware RAG AI Tutor - A Retrieval-Augmented Generation based tutoring system that answers questions from academic PDFs using semantic retrieval, optional cross-encoder reranking, and level-adaptive prompt engineering to generate accurate, context-grounded explanations.",
@@ -89,6 +89,28 @@ export const projects = [
     tags: ["Python", "Pandas", "Pydantic", "FastAPI", "Jinja2Templates"],
     liveUrl: "https://house-price-pred-samin.onrender.com/",
     githubUrl: "https://github.com/samin2703/render_house_price_app",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "SQUAT FORM ANALYZER WITH REALTIME FEEDBACK", // Replace with project name
+    description:
+      "A real-time fitness analysis application that uses pose estimation to evaluate squat form and provide personalized coaching feedback.",
+    image: "interface.jpg",
+    tags: ["Python", "Pandas", "NumPy", "MediaPipe", "OpenCV", "pyttsx3", "Ollama"],
+    liveUrl: "",
+    githubUrl: "https://github.com/samin2703/squat-analyzer-with-realtime-feedback",
+    featured: true,
+  },
+  {
+    id: 6,
+    title: "HydroSentinel - FLOOD RISK MONITORING PLATFORM", // Replace with project name
+    description:
+      "HydroSentinel is a comprehensive GovTech solution for real-time urban flood prediction and rapid response coordination in Dhaka.",
+    image: "blockage_analysis_n_location.jpg",
+    tags: ["Python", "Streamlit", "Folium", "Numpy", "SQLite", "ReportLab"],
+    liveUrl: "",
+    githubUrl: "https://github.com/samin2703/hydroSentinel",
     featured: true,
   },
 ];
