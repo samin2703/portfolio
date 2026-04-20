@@ -56,7 +56,7 @@ export default function About() {
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-green-100 dark:bg-green-900/50 rounded-xl 
                               flex items-center justify-center">
-                <span className="text-2xl">✨</span>
+                <span className="text-2xl">🟢</span>
               </div>
               <div>
                 <p className="text-sm text-gray-500 dark:text-gray-400">Status</p>
