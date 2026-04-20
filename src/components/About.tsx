@@ -75,9 +75,9 @@ export default function About() {
         >
           <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6">
             {/* EDIT: Add your tagline */}
-            Passionate about creating
+            Focused on developing reliable AI models
             <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
-              {' '}amazing experiences
+              {' '}for real-world applications
             </span>
           </h3>
 
