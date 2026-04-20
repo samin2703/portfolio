@@ -24,7 +24,7 @@ export default function Hero() {
           transition={{ duration: 0.4 }}
           className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300 text-sm"
         >
-          🟢 Open to Work
+          
         </motion.div>
 
         {/* Name */}
