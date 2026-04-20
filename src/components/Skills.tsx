@@ -24,12 +24,13 @@ const skills = {
     'LLMs (LLaMA, GPT, Ollama)',
     'Vector Embeddings',
     'LangChain',
+    'LangGraph'
     'Prompt Engineering',
     'Fine-tuning',
   ],
   Backend: ['FastAPI', 'Flask', 'Django', 'REST APIs', 'Uvicorn / ASGI'],
-  'Robotics & IoT': ['ROS', 'Embedded Systems', 'STM32', 'Sensors Integration', 'Control Systems'],
-  Tools: ['Hugging Face', 'FAISS / Pinecone', 'SQL', 'Git', 'API Integration'],
+  'Robotics & IoT': ['ROS', 'Embedded Systems', 'Arduino','Esp32', 'Sensors Integration', 'Control Systems'],
+  Tools: ['Hugging Face', 'FAISS', 'Pinecone','ChromaDB', 'SQL', 'Git', 'API Integration'],
 };
 
 // 🔥 Featured (what recruiters notice first)
@@ -41,7 +42,7 @@ const categoryColors: Record<string, string> = {
   'Machine Learning': 'from-blue-500 to-cyan-500',
   'Computer Vision': 'from-sky-400 to-cyan-400',
   'Generative AI': 'from-blue-600 to-blue-400',
-  Backend: 'from-green-500 to-emerald-500',
+  Backend: 'from-blue-500 to-cyan-500',
   'Robotics & IoT': 'from-cyan-500 to-blue-600',
   Tools: 'from-blue-700 to-cyan-500',
 };
