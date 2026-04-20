@@ -15,6 +15,9 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#020617]"
     >
+      {/* Background gradient overlay (matching About-style softness) */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#020617] via-[#020617] to-gray-900/40" />
+
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-24 text-center">
 
         {/* Availability Badge */}
@@ -24,7 +27,7 @@ export default function Hero() {
           transition={{ duration: 0.4 }}
           className="mb-6 inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300 text-sm"
         >
-          
+          Available for opportunities
         </motion.div>
 
         {/* Name */}
@@ -65,7 +68,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-sm text-gray-500 mb-10"
         >
-          Research Intern @ Elite Research Lab
+          Research Intern @ Elite Research Lab LLC
         </motion.p>
 
         {/* CTA Buttons */}
@@ -128,6 +131,9 @@ export default function Hero() {
           </motion.a>
         </motion.div>
       </div>
+
+      {/* Bottom fade (smooth transition into next section like About) */}
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-gray-50 dark:to-gray-900/50" />
     </section>
   );
 }
