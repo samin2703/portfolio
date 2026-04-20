@@ -84,18 +84,15 @@ export default function About() {
           {/* EDIT: Replace with your detailed bio */}
           <div className="space-y-4 text-gray-600 dark:text-gray-400 mb-8">
             <p>
-              I'm a {personalInfo.title} with a passion for building beautiful, 
-              functional, and user-friendly applications. I specialize in modern web 
-              technologies and love staying up-to-date with the latest trends in development.
+              I'm an {personalInfo.title} focused on AI, Computer Vision, NLP, and Generative AI, 
+              with experience building end-to-end machine learning systems.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies, contributing 
-              to open-source projects, or sharing knowledge with the developer community 
-              through blog posts and tutorials.
+              My work includes developing and deploying deep learning models, working with LLMs, 
+              and creating scalable solutions across vision and language tasks.
             </p>
             <p>
-              I believe in writing clean, maintainable code and creating solutions that 
-              make a real difference in people's lives.
+              I focus on building reliable, production-oriented systems with clean and maintainable code.
             </p>
           </div>
 
