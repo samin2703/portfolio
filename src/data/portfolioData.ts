@@ -17,7 +17,7 @@ export const personalInfo = {
   phone: "+8801408378524", // Replace with your phone
   location: "Dhaka, Bangladesh", // Replace with your location
   bio: `I’m a graduate of the University of Dhaka with a BSc in Robotics and Mechatronics Engineering, specializing in Machine Learning, Artificial Intelligence, and Computer Vision. I build intelligent, data-driven systems and actively explore Generative AI and its real-world applications. I’m also interested in IoT solutions, combining smart sensing with AI-driven decision-making`, // Replace with your bio
-  resumeUrl: "https://drive.google.com/uc?export=download&id=1qXfyaNxxbzNnLdbd3eOnJH_c7sgVmJ2C", // Your Google Drive resume
+  resumeUrl: "https://drive.google.com/file/d/1tbRiguDCl-n5vHIRLXHCvslaX6YeUq6p/view?usp=drive_link", // Your Google Drive resume
 };
 
 // ============================================
