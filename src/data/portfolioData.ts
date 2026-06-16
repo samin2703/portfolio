@@ -195,14 +195,29 @@ export const skills = [
 // EXPERIENCE - Edit your work experience here
 // ============================================
 export const experiences = [
-  {
+    {
     id: 1,
+    type: "work",
+    title: "AI Engineer Intern",
+    company: "Cognisor AI",
+    location: "Remote",
+    startDate: "June, 2026",
+    endDate: "Present",
+    description: [
+      "Developing AI-powered applications using Large Language Models (LLMs) and modern AI frameworks",
+      "Building and optimizing RAG pipelines for knowledge retrieval and question-answering systems",
+      "Designing prompts and workflows to improve response quality and user experience",
+      "Collaborating with the engineering team to integrate AI features into production-ready applications",
+    ],
+  },
+  {
+    id: 4,
     type: "work",
     title: "Research Intern", // Replace with your title
     company: "ELITE Research Lab", // Replace with company name
     location: "Queens, NY, USA (Remote)",
-    startDate: "2026",
-    endDate: "Present",
+    startDate: "January, 2026",
+    endDate: "June, 2026",
     description: [
         "Designed and developed a RAG-based AI Tutor system for context-aware question answering using LLMs and vector retrieval",
         "Integrated LLaMA 2 (via Ollama) with a retrieval pipeline to generate accurate and grounded responses from external knowledge sources",
@@ -211,7 +226,7 @@ export const experiences = [
       ],
   },
   {
-    id: 4,
+    id: 5,
     type: "education",
     title: "Bachelor of Science in Robotics and Mechatronics Engineering", // Replace with your degree
     company: "University of Dhaka", // Replace with university name
