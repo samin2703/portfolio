@@ -216,10 +216,10 @@ export const experiences = [
     title: "Bachelor of Science in Robotics and Mechatronics Engineering", // Replace with your degree
     company: "University of Dhaka", // Replace with university name
     location: "Dhaka, Bangladesh",
-    startDate: "2022",
-    endDate: "2026",
+    startDate: "January, 2022",
+    endDate: "June, 2026",
     description: [
-      "Graduate to be with Honors (GPA: 3.61/4.0) upto 7th Semester",
+      "Graduated (GPA: 3.60/4.00)",
       "Focus on Machine Learning, AI and IoT",
       "Completed senior thesis on Human Robot Interaction",
     ],
