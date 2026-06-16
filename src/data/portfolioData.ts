@@ -200,7 +200,7 @@ export const experiences = [
     type: "work",
     title: "AI Engineer Intern",
     company: "Cognisor AI",
-    location: "Remote",
+    location: "Saitama, Japan (Remote)",
     startDate: "June, 2026",
     endDate: "Present",
     description: [
